@@ -1,6 +1,6 @@
 # TechShop
 
-Its my 3rd Sem BTech project in C++. It's a simple program to manage Shop Inventory using a simple UI.
+Its my BTech 3rd Sem project in C++. It's a simple program to manage Shop Inventory using a simple UI.
 
 ## Getting Started
 
