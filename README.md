@@ -1,4 +1,4 @@
-# TechShop
+# TechShop  [<img alt="Build Status" src="https://travis-ci.org/prashplus/TechShop.svg?branch=master" height="20">][travis-url]
 
 Its my BTech 3rd Sem project in C++. It's a simple program to manage Shop Inventory using a simple UI.
 
@@ -13,6 +13,8 @@ Code is optimized to be compiled with gcc only.
 
 ## Authors
 
-* **Prashant Piprotar** - - [PrashPlus](https://github.com/prashplus)
+* **Prashant Piprotar** - - [Prash+](https://github.com/prashplus)
 or visit my blog for more Tech Stuff
-## http://www.prashplus.com
+### http://www.prashplus.com
+
+[travis-url]: https://travis-ci.org/prashplus/TechShop
