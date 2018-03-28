@@ -4,7 +4,7 @@ ALL = main
 
 all: $(ALL)
 
-main: main.cpp makefile
+main: master.cpp makefile
 	$(CXX) $(CXXFLAGS) -o $@ $@.cpp
 
 clean:
