@@ -5,8 +5,9 @@
 #include<string.h>
 #include<stdlib.h>
 #include<fstream>
-#include<windows.h>
+//#include<windows.h>
 #include<stdio.h>
+#include <unistd.h>
 
 using namespace std;
 
@@ -1073,7 +1074,7 @@ void loading()
         cout<<"\n\tLOADING";
         for(int i=0;i<5;i++)
         {
-            Sleep(500);
+            usleep(500);
             cout<<". ";
         }
     }
@@ -1111,14 +1112,14 @@ void passphrase()
                         {
                         cout<<"\nAUTHORISED ENTRY";
                         flag=1;
-                        Sleep(2000);
+                        usleep(2000);
                         return;
                         }
                     j++;
                     }
                 }
                 cout<<"\nUNAUTHORISED ENTRY";
-                Sleep(2000);
+                usleep(2000);
                 exit(0);
         }
         else
@@ -1145,14 +1146,14 @@ void passphrase()
                         {
                         cout<<"\nAUTHORISED ENTRY";
                         flag=0;
-                        Sleep(2000);
+                        usleep(2000);
                         return;
                         }
                     j++;
                     }
                 }
                 cout<<"\nUNAUTHORISED ENTRY";
-                Sleep(2000);
+                usleep(2000);
                 exit(0);
 
             }
