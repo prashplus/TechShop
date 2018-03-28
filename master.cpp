@@ -1428,7 +1428,7 @@ void hdd()
                     if(COUNT==0)
                         cout<<"\n   :( No products found";
         }
-        else if(n=4)
+        else if(n==4)
         {
             cout<<"\nEnter the Min size of HDD:";
             cin>>p;
@@ -1833,7 +1833,7 @@ void externalhdd()
                     if(COUNT==0)
                         cout<<"\n   :( No products found";
         }
-        else if(n=4)
+        else if(n==4)
         {
             cout<<"\nEnter the Min size of HDD:";
             cin>>p;
