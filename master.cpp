@@ -5,8 +5,8 @@
 #include<string.h>
 #include<stdlib.h>
 #include<fstream>
-#include<conio.h>
 #include<windows.h>
+#include<stdio.h>
 
 using namespace std;
 
@@ -1104,7 +1104,7 @@ void passphrase()
 
                 while(j<9)
                     {
-                    c=_getch();
+                    c=getchar();
                     a[j] = c;
                     cout<<"*";
                     if(strcmp(a,b)==0)
@@ -1138,7 +1138,7 @@ void passphrase()
 
                 while(j<9)
                     {
-                    c=_getch();
+                    c=getchar();
                     a[j] = c;
                     cout<<"*";
                     if(strcmp(a,b)==0)
@@ -3535,7 +3535,7 @@ void billing()
     if(!fin)
     {
         cerr<<"\n Cannot open file !\n";
-        getch();
+        getchar();
         return;
     }
     char const * const PrinterName = "usb001:"; // Identify the printer port.
@@ -3560,7 +3560,7 @@ void billing()
 
 
     fin.close(); // Close file./
-    cout << "\n\n\t\t\t\Printing...";
+    cout << "\n\n\t\t\t\tPrinting...";
     fstream f,f2;
     f.open("object.txt",ios::in);
     pid p;
@@ -3577,7 +3577,7 @@ void billing()
                         f2.close();
     total=0;
     checkout=0;
-    cout << "\n\n\ Please press the [ENTER] key to return";
+    cout << "\n\n Please press the [ENTER] key to return";
     cin.ignore();
     }
 
