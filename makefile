@@ -1,10 +1,10 @@
 CXXFLAGS = -g -Wall -Wfatal-errors -std=c++14
 
-ALL = start
+ALL = main
 
 all: $(ALL)
 
-start: main.cpp makefile
+main: main.cpp makefile
 	$(CXX) $(CXXFLAGS) -o $@ $@.cpp
 
 clean:
