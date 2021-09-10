@@ -14,7 +14,7 @@ Code is optimized to be compiled with gcc only.
 ## Authors
 
 * **Prashant Piprotar** - - [Prash+](https://github.com/prashplus)
-* **Vicky Patel** - -
+* **Vicky Patel** - - [Vicky](https://github.com/vicky911)
 
 Visit my blog for more Tech Stuff
 ### http://www.prashplus.com
